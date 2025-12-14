@@ -12,7 +12,7 @@ async function onSubmit() {
     }, 3000)
 
     try {
-        const response = await fetch("https://formsubmit.co/ajax/d0ddb6224e25de5049d4306cd64ea5f", {
+        const response = await fetch("https://formsubmit.co/ajax/d0ddb6224e25de5049d4306cd64eaa5f", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
