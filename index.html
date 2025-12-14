@@ -117,7 +117,7 @@
 			<!-- Enquiry Form -->
 			<section id="enquire" class="enquiry">
 				<h2>Enquire Now</h2>
-				<form id="enquire-info">
+				<form id="enquire-info" method=post>
 					<label>Full Name <input type="text" name="name" required></label>
 					<label>Email Address <input type="email" name="email" required></label>
 					<label>Phone Number <input type="tel" name="phone" required></label>
@@ -128,6 +128,10 @@
 					<label class="checkbox"><input type="checkbox" required> I agree to receive communications from Draft Interiors.</label>
 					<button type="submit" class="cta-btn">Submit</button>
 				</form>
+				<div id="acknowledgement" style="display: none;margin-top: 2em;">
+					<h2>Thank You</h2>
+					<p>Your submission has been received.</p>
+				</div>
 			</section>
 
 			<section id="about" class="about">
